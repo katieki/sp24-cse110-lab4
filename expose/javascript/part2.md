@@ -32,9 +32,9 @@
     E. false, because when type coercion is performed, true turns into 1 and 1 == 2 is false. <br>
     F. true, because Boolean(2) means true and is type Boolean, while true is also type Boolean, thus true === Boolean(2) is true. <br>
 15. '==' is an equality operator that performs type coercion before comparing two values. '===' is a strict equality operator that does not perform type coercion before comparison.
-16. Look at part2-question16.js
+16. Look at [part2-question16.js](part2-question16.js)
 17. [2, 4, 6], function modifyArray takes in array [1, 2, 3] and function doSomething(). The for loop iterates through the array and pushes the value returned by doSomething when the array value is inputted as the parameter. doSomething(1) returns 2, doSomething(2) returns 4, and doSomething(3) returns 6. Then the new array [2, 4, 6] is returned.
-18. Look at part2-question18.js
+18. Look at [part2-question18.js](part2-question18.js)
 19. the output is:<br>
     1 <br>
     4 <br>
