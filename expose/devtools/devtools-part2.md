@@ -1,0 +1,2 @@
+1. The bug is that the '+' is concatenating "1" and "2" which are of the string type., forming the result of "12".
+2. I would fix this by turnign the "1" and "2" into integers using the parseInt function. The screenshot of the fix is in the photo fix.png.
